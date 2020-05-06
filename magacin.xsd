@@ -83,7 +83,7 @@
   </xs:element>
   <xs:simpleType name="emailRestrikcija">
     <xs:restriction base="xs:string">
-      <xs:pattern value="\c{5,20}@\c{4,8}.com"/>
+      <xs:pattern value="\c{3,20}[a-zA-Z0-9]@\c{4,8}.com"/>
     </xs:restriction>
   </xs:simpleType>
 </xs:schema>
