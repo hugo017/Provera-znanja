@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE Adresar SYSTEM "adresar.dtd">
+<Magacin xmlns="http://www.w3schools.com"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://www.w3schools.com adresar.xsd">
+  <Artikal>
+    <Naziv>Jogurt</Naziv>
+    <DatumIzrade>
+      <Dan>3</Dan>
+      <Mesec>5</Mesec>
+      <Godina>2020</Godina>
+    </DatumIzrade>
+    <Cena tip="dinari">200</Cena>
+    <KompanijaProdavca>
+      <ImeKompanije>Imlek d.o.o.</ImeKompanije>
+      <Adresa>Jove Zmaja 25</Adresa>
+    </KompanijaProdavca>
+    <Email tip="privatni">nikolaristic@gmail.com</Email>
+    <Email tip="sluzbeni">nikola@imlek.com</Email>
+  </Artikal>
+  <Naziv>Hleb</Naziv>
+    <DatumIzrade>
+      <Dan>6</Dan>
+      <Mesec>5</Mesec>
+      <Godina>2020</Godina>
+    </DatumIzrade>
+    <Cena tip="dinari">50</Cena>
+    <KompanijaProdavca>
+      <ImeKompanije>Pekara Zlatibor d.o.o.</ImeKompanije>
+      <Adresa>Juznomoravska 2</Adresa>
+    </KompanijaProdavca>
+    <Email tip="privatni">andjelijadoncic@gmail.com</Email>
+    <Email tip="sluzbeni">andjelija@pekara.com</Email>
+  </Artikal>
+</Magacin>
