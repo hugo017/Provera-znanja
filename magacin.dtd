@@ -19,4 +19,3 @@
 
 <!ELEMENT Email (#PCDATA)>
 <!ATTLIST Email tip (sluzbeni|privatni) #REQUIRED>
-  nikola provera treci put online
